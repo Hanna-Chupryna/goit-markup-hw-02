@@ -45,8 +45,8 @@ a {
 
 .link-menu:hover,
 .link-menu:focus,
-.contacts:hover,
-.contacts:focus {
+.link-contacts:hover,
+.link-contacts:focus {
   color: #404bbf;
 }
 

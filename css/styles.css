@@ -17,7 +17,7 @@ a {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.16;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -26,50 +26,58 @@ a {
   color: #4d5ae5;
 }
 
-.menu {
+.link-menu {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-.address {
+.link-contacts {
   color: #434455;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
-h1 {
+.link-menu:hover,
+.link-menu:focus,
+.link-contacts:hover,
+.link-contacts:focus {
+  color: #404bbf;
+}
+
+.title {
   color: #fff;
   text-align: center;
   /* Header 1 */
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
   background: #2e2f42;
 }
 
-button {
-  color: var(--WHITE, #fff);
+.btn {
+  color: #fff;
   /* Button Text */
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.64px;
   background: #4d5ae5;
+  cursor: pointer;
 }
 
-.feature,
-.team,
-.portfolio {
+.feature-title,
+.team-title,
+.portfolio-title {
   /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
@@ -80,7 +88,7 @@ button {
   /* Body */
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
@@ -89,17 +97,17 @@ button {
   /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
 
 .footer-text {
-  color: var(--CLOUD, #f4f4fd);
+  color: #f4f4fd;
   /* Body */
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
   background: #2e2f42;
 }
